@@ -1,5 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 * {
   box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  align-items: center;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  max-width: 450px;
+  text-align: center;
+}
+.card__hero {
+  background: url("../images/illustration-hero.svg") no-repeat center/cover;
+  height: 220px;
+  width: 100%;
+}
+.card__container {
+  padding: 2.5rem 3rem;
+}
+.card__header {
+  margin-bottom: 1.5rem;
+}
+.card__title {
+  color: hsl(223deg, 47%, 23%);
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.card__description {
+  color: hsl(224deg, 23%, 55%);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.card__content {
+  align-items: center;
+  background-color: hsl(225deg, 100%, 98%);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+.card__plan {
+  background: url("../images/icon-music.svg") no-repeat left/3rem;
+  padding-left: 4.25rem;
+}
+.card__type {
+  color: hsl(223deg, 47%, 23%);
+  font-size: 1rem;
+  font-weight: 900;
+  margin-bottom: 0.4rem;
+}
+.card__price {
+  color: hsl(224deg, 23%, 55%);
+}
+.card__change {
+  color: hsl(245deg, 75%, 52%);
+  font-weight: 700;
+  -webkit-text-decoration: underline solid 2px;
+          text-decoration: underline solid 2px;
+  text-underline-offset: 1px;
+}
+.card__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.card__confirm {
+  background-color: hsl(245deg, 75%, 52%);
+  border-radius: 0.75rem;
+  color: #fff;
+  font-weight: 900;
+  padding: 1rem;
+  width: 100%;
+}
+.card__cancel {
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 900;
 }/*# sourceMappingURL=main.css.map */

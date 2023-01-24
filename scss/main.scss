@@ -1,1 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@import "variables";
 @import "reset";
+
+.wrapper {
+  align-items: center;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: $color-white;
+  border-radius: 1rem;
+  overflow: hidden;
+  max-width: 450px;
+  text-align: center;
+
+  &__hero {
+    background: url("../images/illustration-hero.svg") no-repeat center / cover;
+    height: 220px;
+    width: 100%;
+  }
+
+  &__container {
+    padding: 2.5rem 3rem;
+  }
+
+  &__header {
+    margin-bottom: 1.5rem;
+  }
+
+  &__title {
+    color: $color-secondary-dark-blue;
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    color: $color-secondary-desaturated-blue;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &__content {
+    align-items: center;
+    background-color: $color-secondary-pale-blue;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+  }
+
+  &__plan {
+    background: url("../images/icon-music.svg") no-repeat left / 3rem;
+    padding-left: 4.25rem;
+  }
+
+  &__type {
+    color: $color-secondary-dark-blue;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: .4rem;
+  }
+
+  &__price {
+    color: $color-secondary-desaturated-blue;
+  }
+
+  &__change {
+    color: $color-primary-bright-blue;
+    font-weight: 700;
+    text-decoration: underline solid 2px;
+    text-underline-offset: 1px;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  &__confirm {
+    background-color: $color-primary-bright-blue;
+    border-radius: .75rem;
+    color: $color-white;
+    font-weight: 900;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  &__cancel {
+    color: $color-secondary-desaturated-blue;
+    font-weight: 900;
+  }
+}
