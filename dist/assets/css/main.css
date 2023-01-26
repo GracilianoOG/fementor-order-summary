@@ -37,13 +37,14 @@ a {
   padding: 3rem;
 }
 .card__header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 .card__title {
   color: hsl(223deg, 47%, 23%);
   font-size: 1.75rem;
   font-weight: 900;
-  margin-bottom: 0.75rem;
+  line-height: 1;
+  margin: 0.25rem 0 1.5rem;
 }
 .card__description {
   color: hsl(224deg, 23%, 55%);
@@ -72,6 +73,7 @@ a {
 }
 .card__price {
   color: hsl(224deg, 23%, 55%);
+  font-size: 105%;
 }
 .card__change {
   color: hsl(245deg, 75%, 52%);
@@ -80,6 +82,12 @@ a {
   -webkit-text-decoration: underline solid 1px;
           text-decoration: underline solid 1px;
   text-underline-offset: 1px;
+  transition: all 0.3s;
+}
+.card__change:hover {
+  opacity: 0.75;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 .card__footer {
   display: flex;
@@ -94,9 +102,17 @@ a {
   font-weight: 900;
   padding: 1rem;
   width: 100%;
+  transition: all 0.3s;
+}
+.card__confirm:hover {
+  opacity: 0.75;
 }
 .card__cancel {
   color: hsl(224deg, 23%, 55%);
   font-size: 0.95rem;
   font-weight: 900;
+  transition: all 0.3s;
+}
+.card__cancel:hover {
+  color: hsl(223deg, 47%, 23%);
 }/*# sourceMappingURL=main.css.map */
