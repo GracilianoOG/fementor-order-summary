@@ -1,36 +1,36 @@
+@use "variables" as vars;
 @use "reset";
-@use "variables";
-@use "mixins";
+@use "mixins" as mix;
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 .wrapper {
   align-items: center;
   background:
-    url("../images/pattern-background-desktop.svg") no-repeat $color-primary-pale-blue;
+    url("../images/pattern-background-mobile.svg") no-repeat vars.$color-primary-pale-blue;
   display: flex;
   justify-content: center;
   min-height: 100vh;
 }
 
 .card {
-  background-color: $color-white;
+  background-color: vars.$color-white;
   border-radius: 1.25rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, .25);
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .25);
   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .25);
   overflow: hidden;
-  max-width: 450px;
+  max-width: 325px;
   text-align: center;
 
   &__hero {
     background: url("../images/illustration-hero.svg") no-repeat center / cover;
-    height: 220px;
+    height: 160px;
     width: 100%;
   }
 
   &__container {
-    padding: 3rem;
+    padding: 2rem 1.5rem;
   }
 
   &__header {
@@ -38,15 +38,15 @@
   }
 
   &__title {
-    color: $color-secondary-dark-blue;
-    font-size: 1.75rem;
+    color: vars.$color-secondary-dark-blue;
+    font-size: 1.4rem;
     font-weight: 900;
     line-height: 1;
     margin: .25rem 0 1.5rem;
   }
 
   &__description {
-    color: $color-secondary-desaturated-blue;
+    color: vars.$color-secondary-desaturated-blue;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.5;
@@ -54,12 +54,12 @@
 
   &__content {
     align-items: center;
-    background-color: $color-secondary-pale-blue;
+    background-color: vars.$color-secondary-pale-blue;
     border-radius: .5rem;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
-    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
   }
 
   &__plan {
@@ -68,24 +68,24 @@
   }
 
   &__type {
-    color: $color-secondary-dark-blue;
+    color: vars.$color-secondary-dark-blue;
     font-size: 1rem;
     font-weight: 900;
     margin-bottom: .4rem;
   }
 
   &__price {
-    color: $color-secondary-desaturated-blue;
+    color: vars.$color-secondary-desaturated-blue;
     font-size: 105%;
   }
 
   &__change {
-    color: $color-primary-bright-blue;
+    color: vars.$color-primary-bright-blue;
     font-size: .9rem;
     font-weight: 700;
     text-decoration: underline solid 1px;
     text-underline-offset: 1px;
-    @include smooth-transition;
+    @include mix.smooth-transition;
 
     &:hover {
       opacity: .75;
@@ -96,18 +96,18 @@
   &__footer {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   &__confirm {
-    background-color: $color-primary-bright-blue;
+    background-color: vars.$color-primary-bright-blue;
     border-radius: .75rem;
-    color: $color-white;
+    color: vars.$color-white;
     font-size: .95rem;
     font-weight: 900;
     padding: 1rem;
     width: 100%;
-    @include smooth-transition;
+    @include mix.smooth-transition;
 
     &:hover {
       opacity: .75;
@@ -115,13 +115,45 @@
   }
 
   &__cancel {
-    color: $color-secondary-desaturated-blue;
+    color: vars.$color-secondary-desaturated-blue;
     font-size: .95rem;
     font-weight: 900;
-    @include smooth-transition;
+    @include mix.smooth-transition;
 
     &:hover {
-      color: $color-secondary-dark-blue;
+      color: vars.$color-secondary-dark-blue;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .wrapper {
+    background:
+    url("../images/pattern-background-desktop.svg") no-repeat vars.$color-primary-pale-blue;
+  }
+
+  .card {
+    max-width: 450px;
+
+    &__hero {
+      height: 225px;
+    }
+
+    &__container {
+      padding: 3rem;
+    }
+
+    &__title {
+      font-size: 1.75rem;
+    }
+
+    &__content {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+    }
+
+    &__footer {
+      gap: 2rem;
     }
   }
 }

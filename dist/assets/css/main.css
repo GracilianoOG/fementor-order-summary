@@ -12,7 +12,7 @@ a {
 
 .wrapper {
   align-items: center;
-  background: url("../images/pattern-background-desktop.svg") no-repeat hsl(225deg, 100%, 94%);
+  background: url("../images/pattern-background-mobile.svg") no-repeat hsl(225deg, 100%, 94%);
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -25,23 +25,23 @@ a {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-  max-width: 450px;
+  max-width: 325px;
   text-align: center;
 }
 .card__hero {
   background: url("../images/illustration-hero.svg") no-repeat center/cover;
-  height: 220px;
+  height: 160px;
   width: 100%;
 }
 .card__container {
-  padding: 3rem;
+  padding: 2rem 1.5rem;
 }
 .card__header {
   margin-bottom: 1.25rem;
 }
 .card__title {
   color: hsl(223deg, 47%, 23%);
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   font-weight: 900;
   line-height: 1;
   margin: 0.25rem 0 1.5rem;
@@ -58,8 +58,8 @@ a {
   border-radius: 0.5rem;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
 }
 .card__plan {
   background: url("../images/icon-music.svg") no-repeat left/3rem;
@@ -92,7 +92,7 @@ a {
 .card__footer {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 .card__confirm {
   background-color: hsl(245deg, 75%, 52%);
@@ -115,4 +115,29 @@ a {
 }
 .card__cancel:hover {
   color: hsl(223deg, 47%, 23%);
+}
+
+@media screen and (min-width: 500px) {
+  .wrapper {
+    background: url("../images/pattern-background-desktop.svg") no-repeat hsl(225deg, 100%, 94%);
+  }
+  .card {
+    max-width: 450px;
+  }
+  .card__hero {
+    height: 225px;
+  }
+  .card__container {
+    padding: 3rem;
+  }
+  .card__title {
+    font-size: 1.75rem;
+  }
+  .card__content {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+  }
+  .card__footer {
+    gap: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */
