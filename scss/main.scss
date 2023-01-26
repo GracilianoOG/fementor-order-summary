@@ -14,7 +14,7 @@
 
 .card {
   background-color: $color-white;
-  border-radius: 1rem;
+  border-radius: 1.25rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, .25);
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .25);
   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .25);
@@ -29,7 +29,7 @@
   }
 
   &__container {
-    padding: 2.5rem 3rem;
+    padding: 3rem;
   }
 
   &__header {
@@ -40,7 +40,7 @@
     color: $color-secondary-dark-blue;
     font-size: 1.75rem;
     font-weight: 900;
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
   }
 
   &__description {
@@ -78,8 +78,9 @@
 
   &__change {
     color: $color-primary-bright-blue;
+    font-size: .9rem;
     font-weight: 700;
-    text-decoration: underline solid 2px;
+    text-decoration: underline solid 1px;
     text-underline-offset: 1px;
   }
 
@@ -93,6 +94,7 @@
     background-color: $color-primary-bright-blue;
     border-radius: .75rem;
     color: $color-white;
+    font-size: .95rem;
     font-weight: 900;
     padding: 1rem;
     width: 100%;
@@ -100,6 +102,7 @@
 
   &__cancel {
     color: $color-secondary-desaturated-blue;
+    font-size: .95rem;
     font-weight: 900;
   }
 }
