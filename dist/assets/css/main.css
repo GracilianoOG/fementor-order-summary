@@ -21,16 +21,16 @@ a {
 .card {
   background-color: #fff;
   border-radius: 1.25rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.25);
   overflow: hidden;
-  max-width: 325px;
+  max-width: 20.3125rem;
   text-align: center;
 }
 .card__hero {
   background: url("../images/illustration-hero.svg") no-repeat center/cover;
-  height: 160px;
+  height: 10rem;
   width: 100%;
 }
 .card__container {
@@ -63,13 +63,13 @@ a {
 }
 .card__plan {
   background: url("../images/icon-music.svg") no-repeat left/3rem;
-  padding-left: 4.25rem;
+  padding: 0.2rem 0 0.2rem 4.25rem;
 }
 .card__type {
   color: hsl(223deg, 47%, 23%);
   font-size: 0.9rem;
   font-weight: 900;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.3rem;
 }
 .card__price {
   color: hsl(224deg, 23%, 55%);
@@ -122,10 +122,10 @@ a {
     background: url("../images/pattern-background-desktop.svg") no-repeat hsl(225deg, 100%, 94%);
   }
   .card {
-    max-width: 450px;
+    max-width: 28.125rem;
   }
   .card__hero {
-    height: 220px;
+    height: 13.75rem;
   }
   .card__container {
     padding: 3rem;
