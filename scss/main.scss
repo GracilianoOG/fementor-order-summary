@@ -7,7 +7,7 @@
 .wrapper {
   align-items: center;
   background:
-    url("../images/pattern-background-mobile.svg") no-repeat vars.$color-primary-pale-blue;
+    url("../images/pattern-background-mobile.svg") no-repeat left top / contain vars.$color-primary-pale-blue;
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -129,7 +129,7 @@
 @media screen and (min-width: 500px) {
   .wrapper {
     background:
-    url("../images/pattern-background-desktop.svg") no-repeat vars.$color-primary-pale-blue;
+    url("../images/pattern-background-desktop.svg") no-repeat left top / contain vars.$color-primary-pale-blue;
   }
 
   .card {
