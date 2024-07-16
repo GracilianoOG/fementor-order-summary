@@ -7,7 +7,7 @@
 .wrapper {
   align-items: center;
   background:
-    url("../images/pattern-background-mobile.svg") no-repeat left top / contain vars.$color-primary-pale-blue;
+    url("../assets/images/pattern-background-mobile.svg") no-repeat left top / contain vars.$color-primary-pale-blue;
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -24,7 +24,7 @@
   text-align: center;
 
   &__hero {
-    background: url("../images/illustration-hero.svg") no-repeat center / cover;
+    background: url("../assets/images/illustration-hero.svg") no-repeat center / cover;
     height: 10rem;
     width: 100%;
   }
@@ -63,7 +63,7 @@
   }
 
   &__plan {
-    background: url("../images/icon-music.svg") no-repeat left / 3rem;
+    background: url("../assets/images/icon-music.svg") no-repeat left / 3rem;
     padding: .2rem 0 .2rem 4.25rem;
   }
 
@@ -129,7 +129,7 @@
 @media screen and (min-width: 500px) {
   .wrapper {
     background:
-    url("../images/pattern-background-desktop.svg") no-repeat left top / contain vars.$color-primary-pale-blue;
+    url("../assets/images/pattern-background-desktop.svg") no-repeat left top / contain vars.$color-primary-pale-blue;
   }
 
   .card {
