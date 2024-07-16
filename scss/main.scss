@@ -9,6 +9,7 @@
   background:
     url("../assets/images/pattern-background-mobile.svg") no-repeat left top / contain vars.$color-primary-pale-blue;
   display: flex;
+  font-family: vars.$font-primary;
   justify-content: center;
   min-height: 100vh;
 }
