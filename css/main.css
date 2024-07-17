@@ -16,6 +16,7 @@ a {
   font-family: "Red Hat Display", sans-serif;
   justify-content: center;
   min-height: 100vh;
+  padding: 3rem 1.406rem;
 }
 
 .card {
