@@ -93,6 +93,7 @@ a {
 .card__confirm {
   background-color: hsl(245, 75%, 52%);
   border-radius: 0.75rem;
+  box-shadow: 0 1.25rem 1rem hsla(244.9, 74.7%, 52%, 0.19);
   color: #fff;
   font-size: 0.95rem;
   font-weight: 900;
