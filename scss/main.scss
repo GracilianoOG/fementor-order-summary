@@ -127,7 +127,7 @@
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: vars.$breakpoint-medium) {
   .wrapper {
     background:
     url("../assets/images/pattern-background-desktop.svg") no-repeat left top / contain vars.$color-primary-pale-blue;

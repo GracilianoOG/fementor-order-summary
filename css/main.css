@@ -115,7 +115,7 @@ a {
   color: hsl(223, 47%, 23%);
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 36rem) {
   .wrapper {
     background: url("../assets/images/pattern-background-desktop.svg") no-repeat left top/contain hsl(225, 100%, 94%);
   }
