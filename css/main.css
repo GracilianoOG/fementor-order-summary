@@ -21,7 +21,7 @@ a {
 .card {
   background-color: #fff;
   border-radius: 1.25rem;
-  box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.6rem 1rem rgba(155, 155, 255, 0.2);
   overflow: hidden;
   max-width: 20.3125rem;
   text-align: center;
