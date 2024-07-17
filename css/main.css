@@ -51,6 +51,7 @@ a {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.6;
+  transform: scale(0.95);
 }
 .card__content {
   align-items: center;
@@ -136,6 +137,9 @@ a {
   .card__content {
     margin-bottom: 2rem;
     padding: 1.5rem;
+  }
+  .card__description {
+    transform: none;
   }
   .card__type {
     font-size: 1rem;

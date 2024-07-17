@@ -51,6 +51,7 @@
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.6;
+    transform: scale(0.95);
   }
 
   &__content {
@@ -153,6 +154,10 @@
     &__content {
       margin-bottom: 2rem;
       padding: 1.5rem;
+    }
+
+    &__description {
+      transform: none;
     }
 
     &__type {
