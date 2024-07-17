@@ -101,7 +101,7 @@
   &__confirm {
     background-color: vars.$color-primary-bright-blue;
     border-radius: .75rem;
-    box-shadow: 0 1.25rem 1rem hsla(244.9, 74.7%, 52%, 0.19);
+    box-shadow: 0 1.25rem 1rem vars.$color-transparent-purple;
     color: vars.$color-white;
     font-size: .95rem;
     font-weight: 900;
