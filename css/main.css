@@ -29,6 +29,7 @@ a {
 .card__hero {
   background: url("../assets/images/illustration-hero.svg") no-repeat center/cover;
   height: 10rem;
+  margin-bottom: 0.25rem;
   width: 100%;
 }
 .card__container {
@@ -123,6 +124,7 @@ a {
   }
   .card__hero {
     height: 13.75rem;
+    margin-bottom: 0;
   }
   .card__container {
     padding: 3rem;

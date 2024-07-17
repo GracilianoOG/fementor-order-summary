@@ -25,6 +25,7 @@
   &__hero {
     background: url("../assets/images/illustration-hero.svg") no-repeat center / cover;
     height: 10rem;
+    margin-bottom: 0.25rem;
     width: 100%;
   }
 
@@ -137,6 +138,7 @@
 
     &__hero {
       height: 13.75rem;
+      margin-bottom: 0;
     }
 
     &__container {
