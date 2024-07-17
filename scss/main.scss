@@ -17,9 +17,9 @@
 .card {
   background-color: vars.$color-white;
   border-radius: 1.25rem;
-  box-shadow: 0 0 1.25rem rgba(0, 0, 0, .25);
-  -webkit-box-shadow: 0 0 1.25rem rgba(0, 0, 0, .25);
-  -moz-box-shadow: 0 0 1.25rem rgba(0, 0, 0, .25);
+  box-shadow: 0 0 1.25rem vars.$color-transparent-black;
+  -webkit-box-shadow: 0 0 1.25rem vars.$color-transparent-black;
+  -moz-box-shadow: 0 0 1.25rem vars.$color-transparent-black;
   overflow: hidden;
   max-width: 20.3125rem;
   text-align: center;
