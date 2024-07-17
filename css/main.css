@@ -53,7 +53,7 @@ a {
 .card__content {
   align-items: center;
   background-color: hsl(225, 100%, 98%);
-  border-radius: 0.5rem;
+  border-radius: 0.68rem;
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.5rem;
