@@ -24,11 +24,11 @@ You can [check the project's repository here](https://github.com/GracilianoOG/fe
 
 ### 💻 Desktop Layout
 
-![Desktop Layout](./screenshots/desktop.png)
+![Desktop Layout](./assets/screenshots/desktop.png)
 
 ### 📱 Mobile Layout
 
-![Mobile Layout](./screenshots/mobile.png)
+![Mobile Layout](./assets/screenshots/mobile.png)
 
 ## 🔗 Links
 
