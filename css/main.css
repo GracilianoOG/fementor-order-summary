@@ -24,7 +24,7 @@ a {
   border-radius: 1.25rem;
   box-shadow: 0 0.6rem 1rem rgba(155, 155, 255, 0.2);
   overflow: hidden;
-  max-width: 20.3125rem;
+  max-width: 25rem;
   text-align: center;
 }
 .card__hero {
